@@ -40,7 +40,7 @@ int main(){
     puts("Seus dados: \n");
     for (i = 0; i < TAM; i++)
     {
-        printf("------------ Pessoa %d ------------");
+        printf("------------ Pessoa %d ------------\n", i);
         printf("\tNome: %s\n", Lista[i].nome);
         printf("\tIdade: %d\n", Lista[i].idade);
         printf("\tPeso: %0.2f\n", Lista[i].peso);
