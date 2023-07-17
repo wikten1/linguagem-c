@@ -25,12 +25,12 @@ int main(int argc, char const *argv[])
             {
                 Div = Div + 1;
             }
-
-            if (Div == 2)
+        }
+        
+        if (Div == 2)
             {
                 printf("%d é primo, posição: %d\n", Primos[i], i+1);
             } 
-        }
     }
     
 
